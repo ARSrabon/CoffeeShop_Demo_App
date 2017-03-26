@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D30215"
+    tools:context="io.github.arsrabon.m.coffeeshop.SplashActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_server_food_fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logo"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:text="Coffee Shop"
+        android:textColor="#FFF"
+        android:textSize="40sp" />
+</RelativeLayout>
